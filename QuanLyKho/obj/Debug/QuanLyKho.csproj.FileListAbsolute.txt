@@ -11,3 +11,14 @@ E:\ChuyenNganh\NhapMonCNPM\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.FormDangNhap.
 E:\ChuyenNganh\NhapMonCNPM\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.FormDoiMatKhau.resources
 E:\ChuyenNganh\NhapMonCNPM\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.FormKhoaTaiKhoan.resources
 E:\ChuyenNganh\NhapMonCNPM\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.FormTrangChu.resources
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.FormCapTaiKhoan.resources
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.FormDangNhap.resources
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.FormDoiMatKhau.resources
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.FormKhoaTaiKhoan.resources
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.FormTrangChu.resources
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.csproj.CoreCompileInputs.cache
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\FITHOU\Nhập môn\quanlykho_winform\QuanLyKho\obj\Debug\QuanLyKho.pdb
