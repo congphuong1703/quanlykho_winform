@@ -12,9 +12,13 @@ namespace QuanLyKho
 {
     public partial class FormTrangChu : Form
     {
-        public FormTrangChu()
+        private string username;
+        public FormTrangChu(string username)
         {
             InitializeComponent();
+            this.Username = username;
         }
+
+        public string Username { get => username; set => username = value; }
     }
 }

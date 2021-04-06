@@ -46,8 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\DataProvider.cs" />
-    <Compile Include="DAO\EmployeeDAO.cs" />
+    <Compile Include="dao\DataProvider.cs" />
+    <Compile Include="dao\EmployeeDAO.cs" />
     <Compile Include="FormCapTaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>

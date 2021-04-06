@@ -13,15 +13,15 @@ namespace QuanLyKho
 {
     public partial class FormDoiMatKhau : Form
     {
-        private string userName;
-        public FormDoiMatKhau(string userName)
+        private string username;
+        public FormDoiMatKhau(string usename)
         {
             InitializeComponent();
-            this.UserName = userName;
+            this.Username = username;
 
         }
 
-        public string UserName { get => userName; set => userName = value; }
+        public string Username { get => username; set => username = value; }
 
         private void btnChangePass(object sender, EventArgs e)
         {
@@ -35,7 +35,7 @@ namespace QuanLyKho
             }
             else
             {
-                if (EmployeeDAO.Instance.changePassword(userName, oldPass, newPass))
+                if (EmployeeDAO.Instance.changePassword(username, oldPass, newPass))
                 {
                     MessageBox.Show("Cập nhập thành công!");
                     
