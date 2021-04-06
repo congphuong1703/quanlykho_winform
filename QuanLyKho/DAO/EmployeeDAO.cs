@@ -27,7 +27,7 @@ namespace QuanLyKho.DAO
 
         public bool login(string username, string password)
         {
-            string sql = "  SP_Login @password , @password ";
+            string sql = "  SP_Login @username , @password ";
             DataTable table = DataProvider.Instance.ExecuteQuery(sql, new object[] { username, password });
             return table.Rows.Count > 0;
         }
@@ -35,7 +35,7 @@ namespace QuanLyKho.DAO
         // neu flag =1 : acc - active
         public bool checkAccountStatus(string username, string password)
         {
-            string sql = "  SP_CheckAcc @password , @password ";
+            string sql = "  SP_CheckAcc @username , @password ";
             DataTable table = DataProvider.Instance.ExecuteQuery(sql, new object[] { username, password });
             return table.Rows.Count > 0;
         }
