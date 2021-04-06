@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dao\DataProvider.cs" />
+    <Compile Include="dao\Employee.cs" />
     <Compile Include="dao\EmployeeDAO.cs" />
     <Compile Include="FormCapTaiKhoan.cs">
       <SubType>Form</SubType>

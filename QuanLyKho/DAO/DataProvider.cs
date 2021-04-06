@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QuanLyKho.DAO
 {
@@ -22,7 +18,7 @@ namespace QuanLyKho.DAO
 
         private DataProvider() { }
 
-        string connectionSTR = @"Data Source=DESKTOP-ALMMIJJ\SQLEXPRESS;Initial Catalog=QuanLyQuanCafe;Integrated Security=True";
+        string connectionSTR = @"Data Source=DESKTOP-ALMMIJJ\SQLEXPRESS;Initial Catalog=QuanLyKhoNhapMon;Integrated Security=True";
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {

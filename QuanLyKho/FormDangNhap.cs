@@ -27,7 +27,7 @@ namespace QuanLyKho
                 MessageBox.Show("Mời bạn nhập tên đăng nhập");
                 return;
             }
-            if (username == "" || username == null)
+            if (password == "" || password == null)
             {
                 MessageBox.Show("Mời bạn nhập mật khẩu");
                 return;
