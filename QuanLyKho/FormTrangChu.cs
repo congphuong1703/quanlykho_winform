@@ -36,5 +36,10 @@ namespace QuanLyKho
             f.ShowDialog();
             this.Show();
         }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
