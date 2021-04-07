@@ -20,7 +20,7 @@ namespace QuanLyKho.DAO
         private EmployeeDAO() { }
         public bool changePassword(string username, string oldPass, string newPass)
         {
-            int result = DataProvider.Instance.ExecuteNonQuery(" exec SP_CapNhatMK @username , @password , @newPassword ",
+            int result = DataProvider.Instance.ExecuteNonQuery(" exec SP_CapNhatMK @username , @password , @newPass ",
                 new object[] { username, oldPass, newPass });
 
             return result > 0;
@@ -31,7 +31,7 @@ namespace QuanLyKho.DAO
             string sql = "  SP_Login @username , @password ";
             DataTable table = DataProvider.Instance.ExecuteQuery(sql, new object[] { username, password });
             return table.Rows.Count > 0;
-        }
+        }       
 
         public bool addAccount(Employee employee)
         {
@@ -57,6 +57,18 @@ namespace QuanLyKho.DAO
             return result > 0;
         }
 
+        public DataTable loadTaiKhoan()
+        {
+            string sql = "  SP_LoadTaiKhoan ";
+            return DataProvider.Instance.ExecuteQuery(sql);
+        }
+         
+        public bool dongTaiKhoan(string username)
+        {
+            string sql = "  SP_DongTaiKhoan @username  ";
+            int result = DataProvider.Instance.ExecuteNonQuery(sql, new object[] { username });
 
+            return result > 0;
+        }
     }
 }

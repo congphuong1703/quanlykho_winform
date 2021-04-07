@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyKho.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,27 @@ namespace QuanLyKho
         public FormKhoaTaiKhoan()
         {
             InitializeComponent();
+            loadTaiKhoan();
+        }
+
+        public void loadTaiKhoan()
+        {
+            cbAccount.DataSource = EmployeeDAO.Instance.loadTaiKhoan();
+            cbAccount.DisplayMember = "name";
+            cbAccount.ValueMember = "username";
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            string username = cbAccount.SelectedValue.ToString();
+            if (EmployeeDAO.Instance.dongTaiKhoan(username))
+            {
+                MessageBox.Show("Khoa tai khoan thanh cong");
+            }
+            else
+            {
+                MessageBox.Show("Khoa tai khoan that bai");
+            }
         }
     }
 }
